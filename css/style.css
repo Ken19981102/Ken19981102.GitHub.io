@@ -231,6 +231,114 @@ h2#contact:before {
     margin: 0;
 }
 
+#bio1 {
+    position: relative;
+}
+
+#bio1 #avatar {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#bio1 h2 {
+    font-size: 15px;
+}
+
+#bio1 p {
+    clear: left;
+    margin: 40px auto;
+    padding: 40px 45px;
+    max-width: 560px;
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    position: relative;
+    border-width: 0 1px 1px;
+    border-color: #fff #f3f3f3 #e8e8e8;
+    line-height: 1.6em;
+}
+
+#bio1 iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+#bio1 p a {
+    text-decoration: none;
+    border: none;
+    background: #444;
+    color: #fff;
+    padding: 3px 5px;
+    margin: -3px 0 0 0;
+}
+
+#bio1 p a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #222;
+}
+
+#bio1 a.selectedWork {
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#bio2 {
+    position: relative;
+}
+
+#bio2 #avatar {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#bio2 h2 {
+    font-size: 15px;
+}
+
+#bio2 p {
+    clear: left;
+    margin: 40px auto;
+    padding: 40px 45px;
+    max-width: 560px;
+    background: #fbfbfb;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    position: relative;
+    border-width: 0 1px 1px;
+    border-color: #fff #f3f3f3 #e8e8e8;
+    line-height: 1.6em;
+}
+
+#bio2 iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+#bio2 p a {
+    text-decoration: none;
+    border: none;
+    background: #444;
+    color: #fff;
+    padding: 3px 5px;
+    margin: -3px 0 0 0;
+}
+
+#bio2 p a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #222;
+}
+
+#bio2 a.selectedWork {
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 #socialIcons {
     width: 50%;
     height: 30px;
@@ -659,6 +767,14 @@ ul#recommends li > p {
 /*---COPYRIGHT STUFF------*/
 /* ----------------------*/
 #copyright {
+    text-align: center;
+    font: bold 10px sans-serif;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 20px 0 60px;
+    text-shadow: 1px 1px 1px #fff;
+}
+#copyright1 {
     text-align: center;
     font: bold 10px sans-serif;
     text-transform: uppercase;
