@@ -501,7 +501,7 @@ ul#skills.ready {
 ul#skills li {
     position: relative;
     right: 100%;
-    background-color: #444;
+    background-color: #aaaaaa;
     color: #fff;
     font: bold 9px/20px sans-serif;
     letter-spacing: 1px;
